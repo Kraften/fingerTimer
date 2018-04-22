@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783402957701",
+    "firebase_url": "https://climbingtraining-5e207.firebaseio.com",
+    "project_id": "climbingtraining-5e207",
+    "storage_bucket": "climbingtraining-5e207.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783402957701:android:b7d11b27b2f1f9f1",
+        "android_client_info": {
+          "package_name": "com.hang.johanneskraft.hangboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783402957701-14sc09md59512phult8hkmrqiqpcqepe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hang.johanneskraft.hangboard",
+            "certificate_hash": "8bd5fa175584c873c849ced2be578cfec7f121e8"
+          }
+        },
+        {
+          "client_id": "783402957701-8ejjg6co6fp5l84rbi9v95akfjt6oc0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiEJjnQC6n0iJY_gwo4Xd6uGvjIZqjo0o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783402957701-8ejjg6co6fp5l84rbi9v95akfjt6oc0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

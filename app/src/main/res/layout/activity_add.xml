@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/rectangle_rounded_corners"
+    android:layout_margin="5dp"
+    tools:context="com.hang.johanneskraft.hangboard.ui.AddActivity"
+    android:weightSum="1"
+    android:visibility="invisible">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.26"
+        android:ems="10"
+        android:hint="Training set name"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:backgroundTint="@android:color/black"/>
+
+    <LinearLayout
+        android:id="@+id/PREPARE_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/prepare_textView"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Prep"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <SeekBar
+            android:id="@+id/prepare_SeekBar"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:max="10"
+            android:progressTint="@android:color/black"
+            android:thumbTint="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/prepareNumber_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="0dp"
+            android:paddingTop="8dp"
+            android:text="0s"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SETS_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/sets_textView"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Sets"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <SeekBar
+            android:id="@+id/sets_seekBar"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:max="10"
+            android:progressTint="@android:color/black"
+            android:thumbTint="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/setsNumber_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="0dp"
+            android:paddingTop="8dp"
+            android:text="0s"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/REPS_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/reps_textView"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="@string/reps"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <SeekBar
+            android:id="@+id/reps_seekBar"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:max="10"
+            android:progressTint="@android:color/black"
+            android:thumbTint="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/repsNumber_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="0dp"
+            android:paddingTop="8dp"
+            android:text="0s"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/HANG_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/hangTime_textView"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Hang"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <SeekBar
+            android:id="@+id/hangTime_seekBar"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:max="10"
+            android:progressTint="@android:color/black"
+            android:thumbTint="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/hangTimeNumber_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="0dp"
+            android:paddingTop="8dp"
+            android:text="0s"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/REST_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/rest_textView"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Rest"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <SeekBar
+            android:id="@+id/rest_seekBar"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:max="10"
+            android:progressTint="@android:color/black"
+            android:thumbTint="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/restNumber_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="0dp"
+            android:paddingTop="8dp"
+            android:text="0s"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/PAUSE_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/pause_textView"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Pause"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+        <SeekBar
+            android:id="@+id/pause_seekBar"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:max="10"
+            android:progressTint="@android:color/black"
+            android:thumbTint="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/pauseNumber_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="0dp"
+            android:paddingTop="8dp"
+            android:text="0s"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="createSet"
+        android:text="SAVE" />
+
+    <Button
+        android:id="@+id/LogOutBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/log_out" />
+
+
+</LinearLayout>

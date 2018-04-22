@@ -1,0 +1,15 @@
+<resources>
+    <string name="get_your_fingers_ready">Get your fingers ready!</string>
+    <string name="logging_in">Logging in...</string>
+    <string name="sign_in_with_exsisting_account">Sign in with exsisting account</string>
+    <string name="log_out">Log Out</string>
+    <string name="reps">Reps</string>
+    <string name="title_activity_timer">Countdown</string>
+    <string name="title_activity_list">Sessions</string>
+    <string name="start">Start</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
